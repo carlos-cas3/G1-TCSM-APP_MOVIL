@@ -1,0 +1,60 @@
+{
+  "n_total": 6400,
+  "top1_accuracy": 0.9378125,
+  "macro_f1": 0.9351367447797493,
+  "roc_auc_macro_ovr": 0.9901910487771513,
+  "per_class": {
+    "MildDemented": {
+      "support": 896,
+      "auc_ovr": 0.9909872771101537,
+      "average_precision": 0.9694853027854826
+    },
+    "ModerateDemented": {
+      "support": 64,
+      "auc_ovr": 0.9984414457070707,
+      "average_precision": 0.9553846671876143
+    },
+    "NonDemented": {
+      "support": 3200,
+      "auc_ovr": 0.987935693359375,
+      "average_precision": 0.9873666336209338
+    },
+    "VeryMildDemented": {
+      "support": 2240,
+      "auc_ovr": 0.9833997789320055,
+      "average_precision": 0.9740817491767855
+    }
+  },
+  "cv_mean": {
+    "accuracy": 0.937804993692606,
+    "macro_f1": 0.9354625490948472,
+    "precision_MildDemented": 0.941759959601284,
+    "recall_MildDemented": 0.902770549882557,
+    "f1_MildDemented": 0.9216117865215228,
+    "precision_ModerateDemented": 0.9833333333333332,
+    "recall_ModerateDemented": 0.9165775401069519,
+    "f1_ModerateDemented": 0.9446376811594203,
+    "precision_NonDemented": 0.9500684472807499,
+    "recall_NonDemented": 0.954713943082407,
+    "f1_NonDemented": 0.9523364232370823,
+    "precision_VeryMildDemented": 0.9182500773978746,
+    "recall_VeryMildDemented": 0.9285735380226754,
+    "f1_VeryMildDemented": 0.9232643054613634
+  },
+  "cv_std": {
+    "accuracy": 0.010167320848404934,
+    "macro_f1": 0.017213267612693726,
+    "precision_MildDemented": 0.03166137837675233,
+    "recall_MildDemented": 0.011860309673459704,
+    "f1_MildDemented": 0.018103525953831568,
+    "precision_ModerateDemented": 0.03333333333333335,
+    "recall_ModerateDemented": 0.10356122726768088,
+    "f1_ModerateDemented": 0.05355969605774421,
+    "precision_NonDemented": 0.009662745747666585,
+    "recall_NonDemented": 0.011685535547833789,
+    "f1_NonDemented": 0.008202324695984798,
+    "precision_VeryMildDemented": 0.017169558922082225,
+    "recall_VeryMildDemented": 0.01571170076987164,
+    "f1_VeryMildDemented": 0.012670056802851867
+  }
+}

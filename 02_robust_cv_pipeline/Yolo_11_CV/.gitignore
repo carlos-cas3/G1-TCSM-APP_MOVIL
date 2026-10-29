@@ -1,0 +1,14 @@
+# Pesos de los folds: se regeneran ejecutando el notebook
+weights/fold_*/
+
+# Checkpoint intermedio del modelo final (solo se versiona best.pt + best.onnx)
+weights/final/last.pt
+
+# Intermedios de entrenamiento y datos derivados
+generated/
+runs/
+*.zip
+
+# Artefactos temporales
+__pycache__/
+.ipynb_checkpoints/
