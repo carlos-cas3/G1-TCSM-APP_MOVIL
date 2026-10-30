@@ -1,0 +1,60 @@
+{
+  "n_total": 6400,
+  "top1_accuracy": 0.94765625,
+  "macro_f1": 0.9513038684815769,
+  "roc_auc_macro_ovr": 0.9922473684085957,
+  "per_class": {
+    "MildDemented": {
+      "support": 896,
+      "auc_ovr": 0.9895658271257268,
+      "average_precision": 0.9692621319732578
+    },
+    "ModerateDemented": {
+      "support": 64,
+      "auc_ovr": 0.9999679411300505,
+      "average_precision": 0.9971782862407863
+    },
+    "NonDemented": {
+      "support": 3200,
+      "auc_ovr": 0.9903026855468751,
+      "average_precision": 0.9881925695758925
+    },
+    "VeryMildDemented": {
+      "support": 2240,
+      "auc_ovr": 0.9891530198317307,
+      "average_precision": 0.9831693642894328
+    }
+  },
+  "cv_mean": {
+    "accuracy": 0.9476631115685231,
+    "macro_f1": 0.9524539350323463,
+    "precision_MildDemented": 0.9554864028480573,
+    "recall_MildDemented": 0.9130880229490629,
+    "f1_MildDemented": 0.9335526674697029,
+    "precision_ModerateDemented": 1.0,
+    "recall_ModerateDemented": 0.9647058823529411,
+    "f1_ModerateDemented": 0.9806451612903226,
+    "precision_NonDemented": 0.950231483301566,
+    "recall_NonDemented": 0.9659526078468679,
+    "f1_NonDemented": 0.9579252011659826,
+    "precision_VeryMildDemented": 0.9403645587819784,
+    "recall_VeryMildDemented": 0.9352542387437168,
+    "f1_VeryMildDemented": 0.9376927102033772
+  },
+  "cv_std": {
+    "accuracy": 0.006705938504200787,
+    "macro_f1": 0.012601535980649503,
+    "precision_MildDemented": 0.013318030127506753,
+    "recall_MildDemented": 0.024796349647070573,
+    "f1_MildDemented": 0.013553611502234943,
+    "precision_ModerateDemented": 0.0,
+    "recall_ModerateDemented": 0.07058823529411767,
+    "f1_ModerateDemented": 0.03870967741935485,
+    "precision_NonDemented": 0.014171014580209505,
+    "recall_NonDemented": 0.00994535632757156,
+    "f1_NonDemented": 0.007282619881445991,
+    "precision_VeryMildDemented": 0.017152849130426064,
+    "recall_VeryMildDemented": 0.011434414273220946,
+    "f1_VeryMildDemented": 0.01041954501471949
+  }
+}
